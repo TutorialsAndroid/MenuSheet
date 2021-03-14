@@ -88,8 +88,24 @@ This component presents a BottomSheet view that's backed by a menu. It behaves s
 Example from the sample app.
 
 ```java
+//For displaying list menu
 MenuSheetView menuSheetView =
         new MenuSheetView(MenuActivity.this, MenuSheetView.MenuType.LIST, "Create...", new MenuSheetView.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                Toast.makeText(MenuActivity.this, item.getTitle(), Toast.LENGTH_SHORT).show();
+                if (bottomSheetLayout.isSheetShowing()) {
+                    bottomSheetLayout.dismissSheet();
+                }
+                return true;
+            }
+        });
+menuSheetView.inflateMenu(R.menu.create); //pass your menu here like i have pass R.menu.create
+menuSheet.showWithSheetView(menuSheetView);
+
+//For displaying grid menu
+MenuSheetView menuSheetView =
+        new MenuSheetView(MenuActivity.this, MenuSheetView.MenuType.GRID, "Create...", new MenuSheetView.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 Toast.makeText(MenuActivity.this, item.getTitle(), Toast.LENGTH_SHORT).show();
