@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Menu Sheet</string>
+    <string name="list_button">List View</string>
+    <string name="grid_button">Grid View</string>
+    <string name="menu_resource">Click To Inflate a Menu</string>
+    <string name="document">Document</string>
+    <string name="spreadsheet">Spreadsheet</string>
+    <string name="folder">Folder</string>
+    <string name="upload_photos">Upload photos or videos</string>
+    <string name="use_camera">Use camera</string>
+    <string name="show">Show</string>
+    <string name="reopen">Reopen as other type</string>
+</resources>

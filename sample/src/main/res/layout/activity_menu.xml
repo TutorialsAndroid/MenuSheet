@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.menu.sheet.MenuSheetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/list_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="#D50000"
+            android:text="@string/list_button"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/grid_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_button"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="#D50000"
+            android:text="@string/grid_button"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</com.menu.sheet.MenuSheetLayout>
