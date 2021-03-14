@@ -1,12 +1,12 @@
-![](https://github.com/TutorialsAndroid/MenuSheet/blob/master/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png)
+![](https://github.com/TutorialsAndroid/MenuSheet/blob/main/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
 # MenuSheet
 
 MenuSheet is an Android library which presents a view from the bottom of the screen. This library will help you to show bottom sheet menu on your app.
 
 ## ScreenShot
-![](https://github.com/TutorialsAndroid/MenuSheet/blob/master/screenshot/Screenshot_1615727481.png)
-![](https://github.com/TutorialsAndroid/MenuSheet/blob/master/screenshot/Screenshot_1615727486.png)
+![](https://github.com/TutorialsAndroid/MenuSheet/blob/main/screenshot/Screenshot_1615727481.png)
+![](https://github.com/TutorialsAndroid/MenuSheet/blob/main/screenshot/Screenshot_1615727486.png)
 
 ## Setup
 The simplest way to use MenuSheet is to add the library as dependency to your build.
