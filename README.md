@@ -1,6 +1,6 @@
 ![](https://github.com/TutorialsAndroid/MenuSheet/blob/main/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
-# MenuSheet
+# MenuSheet [![](https://jitpack.io/v/TutorialsAndroid/MenuSheet.svg)](https://jitpack.io/#TutorialsAndroid/MenuSheet)
 
 MenuSheet is an Android library which presents a view from the bottom of the screen. This library will help you to show bottom sheet menu on your app.
 
