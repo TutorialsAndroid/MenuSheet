@@ -89,34 +89,34 @@ Example from the sample app.
 
 ```java
 //For displaying list menu
-MenuSheetView menuSheetView =
+MenuSheetView listView =
         new MenuSheetView(MenuActivity.this, MenuSheetView.MenuType.LIST, "Create...", new MenuSheetView.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 Toast.makeText(MenuActivity.this, item.getTitle(), Toast.LENGTH_SHORT).show();
-                if (bottomSheetLayout.isSheetShowing()) {
-                    bottomSheetLayout.dismissSheet();
+                if (menuSheet.isSheetShowing()) {
+                    menuSheet.dismissSheet();
                 }
                 return true;
             }
         });
-menuSheetView.inflateMenu(R.menu.create); //pass your menu here like i have pass R.menu.create
-menuSheet.showWithSheetView(menuSheetView);
+listView.inflateMenu(R.menu.create); //pass your menu here like i have pass R.menu.create
+menuSheet.showWithSheetView(listView);
 
 //For displaying grid menu
-MenuSheetView menuSheetView =
+MenuSheetView gridView =
         new MenuSheetView(MenuActivity.this, MenuSheetView.MenuType.GRID, "Create...", new MenuSheetView.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 Toast.makeText(MenuActivity.this, item.getTitle(), Toast.LENGTH_SHORT).show();
-                if (bottomSheetLayout.isSheetShowing()) {
-                    bottomSheetLayout.dismissSheet();
+                if (menuSheet.isSheetShowing()) {
+                    menuSheet.dismissSheet();
                 }
                 return true;
             }
         });
-menuSheetView.inflateMenu(R.menu.create); //pass your menu here like i have pass R.menu.create
-menuSheet.showWithSheetView(menuSheetView);
+gridView.inflateMenu(R.menu.create); //pass your menu here like i have pass R.menu.create
+menuSheet.showWithSheetView(gridView);
 ```
 
  ## License
