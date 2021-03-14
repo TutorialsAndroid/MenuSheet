@@ -77,8 +77,15 @@ Back in your activity or fragment you would get a reference to the MenuSheetLayo
 
 ```java
 private MenuSheetLayout menuSheet;
-menuSheet = (MenuSheetLayout) findViewById(R.id.bottomsheet);
-menuSheet.setPeekOnDismiss(true); //to dismiss the menu onBackPress
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    menuSheet = (MenuSheetLayout) findViewById(R.id.bottomsheet);
+    menuSheet.setPeekOnDismiss(true); //to dismiss the menu onBackPress
+}  
 ```
 
 ### MenuSheetView
