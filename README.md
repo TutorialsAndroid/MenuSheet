@@ -4,6 +4,10 @@
 
 MenuSheet is an Android library which presents a view from the bottom of the screen. This library will help you to show bottom sheet menu on your app.
 
+## And Don't Forget To Follow Me On Instagram
+
+<p align="center">Follow me on instagram to stay up-to-date https://instagram.com/akshay.sunil.masram.1998
+
 ## ScreenShot
 ![](https://github.com/TutorialsAndroid/MenuSheet/blob/main/screenshot/Screenshot_1615727481r1.png)
 ![](https://github.com/TutorialsAndroid/MenuSheet/blob/main/screenshot/Screenshot_1615727486r1.png)
