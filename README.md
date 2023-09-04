@@ -6,7 +6,7 @@ MenuSheet is an Android library which presents a view from the bottom of the scr
 
 ## And Don't Forget To Follow Me On Instagram
 
-<p align="center">Follow me on instagram to stay up-to-date https://instagram.com/akshay.sunil.masram.1998
+<p align="center">Follow me on instagram to stay up-to-date https://instagram.com/a.masram444
 
 ## ScreenShot
 ![](https://github.com/TutorialsAndroid/MenuSheet/blob/main/screenshot/Screenshot_1615727481r1.png)
